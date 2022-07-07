@@ -5,7 +5,10 @@ public class Array_FirstUniqueElement {
     /*
     write a program that can find the first duplicated element from the array
      */
-
+    public static void main(String[] args) {
+        int [] A=new int[]{4,10,5,4,2,10};
+        System.out.println(firstDuplicatedElement(A));
+    }
     public static int firstDuplicatedElement(int[] array) {
         int firstDuplicated = 0;
 
